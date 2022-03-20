@@ -1,0 +1,85 @@
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: dimgray;
+}
+
+.menu {
+  position: sticky;
+  top: 0px;
+  background: #e8f3fc;
+  width: 100%;
+  height: 40px;
+}
+
+nav {
+  padding: 40px;
+}
+
+.elemento-menu {
+  padding: 40px;
+  font-size: large;
+}
+
+.logo {
+  color: royalblue;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.presentation-r {
+  background-image: url("../pictures/white.jpg");
+  width: 50%;
+  height: 800px;
+}
+
+.presentation-l {
+  background-image: url("../pictures/doctor.webp");
+  width: 50%;
+  height: 800px;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: #eef3ff;
+  padding: 10px;
+  width: 100%;
+}
+
+.blue-font {
+  color: royalblue;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.body-font {
+  color: dimgray;
+  font-size: larger;
+  font-weight: bold;
+}
+.centered-font {
+  text-align: center;
+}
+
+.justify-font {
+  text-align: justify;
+}
+
+.big-blue-font {
+  color: royalblue;
+  font-size: 30pt;
+  font-weight: bolder;
+}
+
+.horizontal-list {
+  list-style: ;
+}
+
+.ul-element {
+  list-style-image: url("../pictures/escudo.png");
+}
